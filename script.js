@@ -3,6 +3,11 @@ var resultado = document.getElementById("resultado");
 var tipo = document.getElementById("tipo");
 
 form.addEventListener("submit",function raiz(previneSub){
+    
+    if(isNaN(numero1.value) || isNaN(numero2.value)){
+        console.log("ok")
+    }
+    
     let n1 = parseInt(numero1.value);
     let n2 = parseInt(numero2.value);
     let tp = tipo.value;

@@ -1,6 +1,15 @@
 var form = document.getElementById("formulario");
 var resultado = document.getElementById("resultado");
 var tipo = document.getElementById("tipo");
+var bt = document.getElementById("bt");
+
+function press(){
+    bt.style.backgroundColor = "white";
+}
+
+function nopress(){
+    bt.style.backgroundColor = "black";
+}
 
 form.addEventListener("submit",function raiz(previneSub){
     

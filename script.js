@@ -10,25 +10,25 @@ form.addEventListener("submit",function raiz(previneSub){
 
     switch(tp){
         case "+":
-            let total = n1+n2
+            let total = n1+n2;
             resultado.innerHTML = n1 +" "+tp+" "+ n2 +" = "+total;
     }
 
     switch(tp){
         case "-":
-            let total = n1-n2
+            let total = n1-n2;
             resultado.innerHTML = n1 +" "+tp+" "+ n2 +" = "+total;
     }
 
     switch(tp){
         case "x":
-            let total = n1*n2
+            let total = n1*n2;
             resultado.innerHTML = n1 +" "+tp+" "+ n2 +" = "+total;
     }
 
     switch(tp){
         case "/":
-            let total = n1/n2
+            let total = n1/n2;
             resultado.innerHTML = n1 +" "+tp+" "+ n2 +" = "+total.toFixed([2]);
     }
 

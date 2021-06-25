@@ -2,4 +2,4 @@
 
 Link: 
 
-Ferrmantas usadas: Html, JavaScript, Css.
+Ferrmantas usadas: Html, Css, JavaScript.
